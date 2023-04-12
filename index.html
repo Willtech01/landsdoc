@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landsdoc</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <style>
+.lands{
+    display: block;
+    width: 98%;
+    margin: auto;
+    background-color: powderblue;
+    height: 685px;
+    border-radius: 3px;
+
+}
+@media only screen and (min-width: 600px){
+    .lands{
+        width: 50%;
+    }
+}
+
+
+
+
+
+
+    </style>
+  </head>
+  <body>
+    <div class="container lands">
+      <h2 class="text-center">Lands/Building</h2>
+
+      <!-- informations on land -->
+
+      <div class="row my">
+          <div class="col-3"><label for="" class=""
+            >Address</label
+          ></div>
+          <div class="col-9"><input
+            type="email"
+            class="form-control"
+            id=""
+            placeholder="enter"
+          /></div>
+        </div>
+
+        <div class="row my-3">
+            <div class="col-6">
+              <label for="">Number of plot</label>
+            </div>
+            <div class="col-6">
+              <input
+              type="build"
+              class="form-control"
+              id=""
+              placeholder="Enter"
+            />
+            </div>
+          </div>
+          <div class="row my-3">
+            <div class="col-6">
+              <label for="">Areas e.g., 20 square m</label>
+            </div>
+            <div class="col-6">
+              <input
+              type="build"
+              class="form-control"
+              id=""
+              placeholder="Enter"
+            />
+            </div>
+          </div>
+          <div class="row my-3">
+            <div class="col-6">
+              <label for="">Cost price</label>
+            </div>
+            <div class="col-6">
+              <input
+              type="build"
+              class="form-control"
+              id="cost price"
+              placeholder="Enter"
+            />
+            </div>
+          </div>
+          <div class="row my-3">
+            <div class="col-6">
+              <label for="">Year of purchase</label>
+            </div>
+            <div class="col-6">
+              <input
+              type="build"
+              class="form-control"
+              id=""
+              placeholder="Enter"
+            />
+            </div>
+          </div>
+
+          <div class="row my-3">
+            <div class="col-6">
+              <label for="">Survey plan</label>
+            </div>
+            <div class="col-6">
+                
+                    <input class="form-control" type="file" id="formFile">
+            </div>
+          </div>
+
+          <div class="row my-3">
+            <div class="col-6">
+              <label for="">Fenced?</label>
+            </div>
+            <div class="col-6">
+                <select class="form-select" aria-label="Default select example">
+                    <option selected>Open this select menu</option>
+                    <option value="1">Yes</option>
+                    <option value="2">No</option>
+                  </select>
+            </div>
+          </div>
+
+          <div class="row my-3">
+            <div class="col-6">
+              <label for="">Current status</label>
+            </div>
+            <div class="col-6">
+                <select class="form-select" aria-label="Default select example">
+                    <option selected>Open this select menu</option>
+                    <option value="1">In use</option>
+                    <option value="2">Not in use</option>
+                  </select>
+            </div>
+          </div>
+
+          <div class="row my-3">
+            <div class="col-3">
+              <label for="">Original owners</label>
+            </div>
+            <div class="col-9">
+              <input
+              type="build"
+              class="form-control"
+              id=""
+              placeholder="(Name,address and phone no)"
+            />
+            </div>
+          </div>
+
+          <div class="row my-3">
+            <div class="col-3">
+              <label for="">Transaction by</label>
+            </div>
+            <div class="col-9">
+              <input
+              type="build"
+              class="form-control"
+              id=""
+              placeholder="(His name,Tel no)"
+            />
+            </div>
+          </div>
+          
+          <div class="row my-3">
+            <div class="col-6">
+              <label for="">Attachments</label>
+            </div>
+            <div class="col-6">
+                <select class="form-select" aria-label="Default select example">
+                    <option selected>select</option>
+                    <option value="1">Survey plan</option>
+                    <option value="2">Deed of Assignment</option>
+                    <option value="3">Receipts of purchase</option>
+                    <option value="4">CofO</option>
+                  </select>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-10">
+              <button type="button" class="btn btn-primary">Done</button>
+            
+            </div>
+            <div class="col-2"><button type="button" class="btn btn-secondary">Submit</button></div>
+                  </div>
+
+
+
+
+      </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
